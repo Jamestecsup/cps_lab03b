@@ -9,10 +9,18 @@ public class StudentRepository {
     public void guardar(String nombre) {
         listaEstudiantes.add(nombre);
     }
-//aa
+
     public void listar() {
         for (String estudiante : listaEstudiantes) {
             System.out.println(estudiante);
         }
+    }
+
+    public void setListaEstudiantes(ArrayList<String> listaEstudiantes) {
+        this.listaEstudiantes = listaEstudiantes;
+    }
+
+    public ArrayList<String> getListaEstudiantes() {
+        return listaEstudiantes;
     }
 }
