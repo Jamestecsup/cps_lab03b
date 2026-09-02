@@ -10,6 +10,12 @@ public class StudentController {
         for(String estudiante : listaEstudiante) {
             System.out.println(estudiante);
         }
+    }
+    public void Notas(){
+        String[] ListarNotas = new String[0];
+        for(String estudiante : ListarNotas) {
+            System.out.println(estudiante);
         }
     }
+}
 
